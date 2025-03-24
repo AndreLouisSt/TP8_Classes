@@ -41,7 +41,6 @@ void concatene(vector<string> const &V2)
     cout << var << endl;
 }
 
-// Ajout d'une virgule après chaque éléments du vecteur 
 ///
 /// @brief Ajout virgule
 /// @details Ajout d'une virgule entre chaque éléments du vecteur, en comparant la taille du vecteur.
@@ -51,7 +50,10 @@ void ajout_virgule(vector<string> V3) {
     cout << endl;
 }
 
-// main
+///
+/// @brief Main
+/// @details fonction main de l'exercice 2. Phrase d'entrée : Something wicked this way comes
+///
 int main()
 {
     // Création de vecteur 3 éléments + assignation
