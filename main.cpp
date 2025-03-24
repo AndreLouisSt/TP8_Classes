@@ -1,4 +1,7 @@
-// Bibliothèque
+///
+/// @brief Bibliothèques
+/// @details Nécéssaires pour le bon focntionnement u projet.
+///
 #include <vector>
 #include <algorithm>
 #include <iterator>
@@ -6,7 +9,10 @@
 
 using namespace std;
 
-// Ajout virgule simple
+///
+/// @brief Virgule
+/// @details Ajout d'une virgule entre chaque éléments du vecteur
+///
 void virgule(string i) {
     cout << i << ',';
 }

@@ -1,3 +1,7 @@
+///
+/// @brief Bibliothèques
+/// @details Nécéssaires pour le bon focntionnement u projet.
+///
 #include <vector>
 #include <algorithm>
 #include <iterator>
