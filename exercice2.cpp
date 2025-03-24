@@ -6,12 +6,18 @@
 
 using namespace std;
 
-// Ajout virgule simple
+///
+/// @brief Virgule
+/// @details Ajout d'une virgule entre chaque éléments du vecteur
+///
 void virgule(string i) {
     cout << i << ',';
 }
 
-// Fonction d'affichage vecteur constant
+///
+/// @brief Affichage vecteur constant
+/// @details Fonction d'affichage du vecteur en utilisant un principe itératif. On sépare les éléments du vecteur par un espace (' ')
+///
 void affiche(vector<string> const &V1)
 {
     for (vector<string>::const_iterator it = V1.begin(); it != V1.end(); it++)
@@ -21,7 +27,10 @@ void affiche(vector<string> const &V1)
     cout << endl;
 }
 
-// Concaténation du vecteur et stockage du résultat dans une variable string unique
+///
+/// @brief Concaténation d'un vecteur
+/// @details Fonction de concaténation d'un vecteur donné. On stocke ensuite le résultat dans un string, puis o l'affiche sur la console.
+///
 void concatene(vector<string> const &V2)
 {
     string var;
@@ -33,6 +42,10 @@ void concatene(vector<string> const &V2)
 }
 
 // Ajout d'une virgule après chaque éléments du vecteur 
+///
+/// @brief Ajout virgule
+/// @details Ajout d'une virgule entre chaque éléments du vecteur, en comparant la taille du vecteur.
+///
 void ajout_virgule(vector<string> V3) {
     for_each(V3.begin(), V3.end(), virgule);
     cout << endl;
